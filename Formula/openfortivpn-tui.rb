@@ -1,11 +1,11 @@
 class OpenfortivpnTui < Formula
   desc "Terminal UI for openfortivpn"
   homepage "https://github.com/Asepimam/openfortivpn-tui"
-  version "1.0.1"
+  version "1.0.2"
 
   on_macos do
-    url "https://github.com/Asepimam/openfortivpn-tui/releases/download/v1.0.1/openfortivpn-tui-macos.zip"
-    sha256 "3f0570cba3142fa135f6e51434975343e833b53ff6c5bb6f02cb877602798563"
+    url "https://github.com/Asepimam/openfortivpn-tui/releases/download/v1.0.2/openfortivpn-tui-macos.zip"
+    sha256 "a20e018a9ce5746549d40f30d50149fb60d438d06a99466d991a5b1632a87c3b"
 
     def install
       bin.install "openfortivpn-tui"
@@ -13,8 +13,8 @@ class OpenfortivpnTui < Formula
   end
 
   on_linux do
-    url "https://github.com/Asepimam/openfortivpn-tui/releases/download/v1.0.1/openfortivpn-tui-linux.zip"
-    sha256 "aecd8144a75f2f82419379e7e088e1a224729b434ccb813f7e3ce3066d39295d"
+    url "https://github.com/Asepimam/openfortivpn-tui/releases/download/v1.0.2/openfortivpn-tui-linux.zip"
+    sha256 "b336b437dc94cbdcdb452ba278f6d0531b60fba918bb0a8b88ca6f719b6d5b86"
 
     def install
       bin.install "openfortivpn-tui"
